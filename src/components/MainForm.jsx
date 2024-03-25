@@ -172,7 +172,7 @@ export const MainForm = () => {
                   className="list-group-item"
                   onClick={() => handleOptionClick(d.nombre)}
                 >
-                  {d.catalog_key} - {d.nombre} - {d.linf} - {d.lsup}
+                  {d.catalog_key} - {d.nombre}
                 </li>
               ))
             }
